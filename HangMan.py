@@ -13,7 +13,7 @@ def word_select():
 def game():
     target_word = word_select()
     transf_to_underscore = ["_"] * len(target_word)
-    test = len(target_word)
+    test = 5
     letter_index_dict = {}
 
     for idx, letter in enumerate(target_word):
