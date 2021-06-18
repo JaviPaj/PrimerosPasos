@@ -43,5 +43,7 @@ def game():
             os.system("cls")
             print(f"\n¡Ganaste! Adivinaste la palabra {target_word}\n")
             break
+
+
 if __name__ == "__main__":
     game()
